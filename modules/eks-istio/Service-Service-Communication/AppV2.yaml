@@ -18,7 +18,7 @@ spec:
         istio: monitor
     spec:
       containers:
-        - image: rekhugopal/eksistiodemo:latest
+        - image: mick2008nit/eksistiodemo:latest
           imagePullPolicy: Always
           name: ss-app
           env:

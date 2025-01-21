@@ -6,6 +6,10 @@ docker push mick2008nit/eksistiodemo:latest
 
 # Docker Push
 
+
+aws eks update-kubeconfig --name demo
+
+
 # login to client pod 
 kubectl exec -it client -n backend  -- sh  
 
